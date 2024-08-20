@@ -1,0 +1,232 @@
+#header {
+  font-family: $font_family;
+  
+  .header_up {
+    background-color: $bg_color;
+    padding: 30px 0;
+  }
+}
+
+.logo_img {
+    max-width: 245px;
+    width: 100%;
+    height: 100%;
+
+img {
+    @extend %Default_Img
+  }
+}
+
+.searchbar {
+    @include Flexible (center, center,row, nowrap, 0);
+  
+    &__products {
+        @include Flexible (center, center,row, nowrap, 0);
+        padding: 0 233px 0 15px;
+    }
+
+    .select {
+        @include Flexible (center, center,row, nowrap, 0);
+    }
+}
+
+.header_right {
+    @include Flexible (center, center,row, nowrap, 20px);
+    margin: 0 auto;
+}
+
+.left {
+    @include Flexible (center, center,row, nowrap, 10px);
+
+    &__icon {
+        @include Flexible (flex-start, center, column, nowrap, 10px);
+
+        i {
+            font-size: 35px;
+            color: $grey_color;
+        }
+    }
+
+    .right_side {
+        @include Flexible (center, center, column, nowrap, 10px);
+        height: 40px;
+        
+        span {
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 600;
+            color: $green_color;
+        }
+
+        p {
+            font-size: 13px;
+            color: $grey_color;
+        }
+
+    }
+
+}
+
+.right {
+    @include Flexible (center, center,row, nowrap, 10px);
+    
+
+    .left_icon {
+        @include Flexible (flex-end, center,column, nowrap, 10px);
+        padding-left: 3px;
+        i {
+            font-size: 35px;
+            color: $grey_color;
+        }
+    }
+
+    &__side {
+        @include Flexible (center, flex-start,column, nowrap, 10px);
+        border-left: 1px solid $grey_color ;
+        height: 40px;
+        
+        span {
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 600;
+            color: $green_color;
+            padding-left: 10px;
+        }
+
+        p {
+            font-size: 13px;
+            color: $grey_color;
+            padding-left: 10px;
+        }
+    }
+
+}
+
+.header_bottom {
+    border-bottom: 1px solid $borderbottom_color;
+    height: 48px;
+}
+
+.browse {
+    background-color: $green_color;
+    width: 270px;
+    height: 48px;
+    color: $white_color;
+    @include Flexible (center, center, row, nowrap, 30px);
+
+    i {
+       font-size: 20px; 
+    }
+
+    span {
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+}
+
+.menu {
+    @include Flexible (center, center, row, nowrap, 10px);
+    padding: 15px 0;
+
+    ul {
+        @include Flexible (center, center, row, nowrap, 16px);
+    }
+
+    li {
+        @include Flexible (center, center, row, nowrap, 0);
+        font-size: 13px;
+        color: $black_color;
+        text-transform: uppercase;
+        font-weight: 600;
+        line-height: 20px;
+        cursor: pointer;
+
+       &:hover {
+            color: $green_color;
+        }
+
+        i {
+            color: $grey_color;
+        }
+
+    }
+
+}
+
+.actions {
+    @include Flexible (center, center, row, nowrap, 10px);
+    line-height: 47px;
+    
+    a {
+        text-decoration: none;
+        color: $black_color;
+        text-transform: uppercase;
+        font-size: 13px;
+        font-weight: 600;
+
+        &:hover {
+            color: $grey_color;
+        }
+    }
+
+    i {
+        font-size: 19px;
+        cursor: pointer;
+        line-height: 47px;
+        padding: 0 4px;
+
+        &:hover {
+            color: $grey_color;
+        }
+    }
+
+    .wishlist {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            border-right: 1px solid $grey_color;
+            top: 15px;
+            left: -3px;
+        }
+
+        span {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: $green_color;
+            border-radius: 100%;
+            top: 12px;
+            left: 15px;
+            font-size: 8px;
+           
+        }
+    }
+
+    .compare {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            border-right: 1px solid $grey_color;
+            top: 15px;
+            left: -3px;
+        }
+
+        span {
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            background-color: $green_color;
+            border-radius: 100%;
+            top: 12px;
+            left: 15px;
+            font-size: 8px;
+           
+        }
+    }
+}

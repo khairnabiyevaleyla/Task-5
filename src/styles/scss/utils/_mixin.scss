@@ -1,5 +1,6 @@
 @mixin Flexible($just:null, $align:null, $direction:null, $wrap:null, $gap:null) {
-    display: $just;
+    display: flex;
+    justify-content: $just;
     align-items: $align;
     flex-direction: $direction;
     flex-wrap: $wrap;
