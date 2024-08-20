@@ -318,4 +318,41 @@ table {
   top: 12px;
   left: 15px;
   font-size: 8px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 40px 0;
+}
+.icon .left img {
+  width: 40px;
+  height: 60px;
+}
+.icon .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 0 10px;
+}
+.icon .right span {
+  font-size: 16px;
+  line-height: 26px;
+  color: #333333;
+  text-transform: capitalize;
+  font-weight: 600;
+  text-align: center;
+}
+.icon .right p {
+  font-size: 14px;
+  color: #a5a5a5;
+  text-transform: capitalize;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

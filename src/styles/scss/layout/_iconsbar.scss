@@ -1,0 +1,36 @@
+
+
+.icon {
+    @include Flexible (center, center, row, wrap, 10px);
+    padding: 40px 0;
+
+    .left {
+        img {
+            width: 40px;
+            height: 60px;
+        }
+    }
+
+    .right {
+        @include Flexible (center, center, column, wrap, 10px);
+        padding: 0 10px;
+
+        span {
+            font-size: 16px;
+            line-height: 26px;
+            color: $black_color;
+            text-transform: capitalize;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color: $grey_color;
+            text-transform: capitalize;
+            text-align: center;
+        }
+    }
+    }
+
+
