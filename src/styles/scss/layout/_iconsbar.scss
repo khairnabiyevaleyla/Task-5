@@ -3,6 +3,7 @@
 .icon {
     @include Flexible (center, center, row, wrap, 10px);
     padding: 40px 0;
+    font-family: $font_family;
 
     .left {
         img {

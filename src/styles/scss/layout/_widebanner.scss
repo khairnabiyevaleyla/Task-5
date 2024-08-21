@@ -1,0 +1,60 @@
+.wide_banner {
+ font-family: $font_family;
+ margin-top: 40px;
+.banner {
+    background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-banner-bicycle-bg-opt.jpg?id=27500) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    margin-right: 0px !important;
+    margin-bottom: 120px !important;
+    margin-left: 0px !important;
+    padding-top: 40px !important;
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+    height: 500px;
+    @include Flexible (center,start,row,nowrap,0);
+    .content_text {
+        padding-left: 20px;
+        h4 {
+            line-height: 23px;
+            font-size: 13px;
+            color: $grey_color;
+            text-transform: uppercase;
+    }
+    h1 {
+        line-height: 64px;
+        font-size: 54px;
+        text-transform: capitalize;
+        color: $white_color;
+        font-weight: 600;
+    }
+    p {line-height: 26px;
+        font-size: 16px;
+        color: $grey_color;
+    }
+    
+    .buy{
+       @include Flexible(start,center,row,nowrap,10px);
+        .green {
+            @extend %Green_button;
+            font-size: 15px;
+            line-height: 29px;
+            &:hover {
+              @extend %Hoverbutton_green;
+            }
+        }
+    
+        span {
+            font-size: 48px;
+            color: $white_color;
+        }
+    }
+    }
+    .bicycle {
+        padding-top: 80px;
+    }
+}
+}
+
+

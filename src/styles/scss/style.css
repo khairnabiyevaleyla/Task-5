@@ -53,6 +53,37 @@ table {
   height: 100%;
 }
 
+.bottompromo_banner .transparent, .upperpromo_banner .transparent, .right_bottom .bottom_banner .transparent, .right_upper .upper_banner .transparent, .left_upper .transparent {
+  padding: 8px 14px;
+  font-size: 12px;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.bottompromo_banner .transparent:hover, .upperpromo_banner .transparent:hover, .right_bottom .bottom_banner .transparent:hover, .right_upper .upper_banner .transparent:hover, .left_upper .transparent:hover {
+  border: 1px solid #fff;
+}
+
+.wide_banner .banner .content_text .buy .green, .product_banner .banner .green, .right_upper .upper_banner .green, .left_bottom .bottom_banner a {
+  padding: 8px 14px;
+  font-size: 12px;
+  text-decoration: none;
+  border: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  line-height: 70px;
+  background-color: #558063;
+}
+
+.wide_banner .banner .content_text .buy .green:hover, .product_banner .banner .green:hover, .right_upper .upper_banner .green:hover, .left_bottom .bottom_banner a:hover {
+  background-color: #486d54;
+}
+
 #header {
   font-family: "Poppins", sans-serif;
 }
@@ -328,6 +359,7 @@ table {
   flex-wrap: wrap;
   gap: 10px;
   padding: 40px 0;
+  font-family: "Poppins", sans-serif;
 }
 .icon .left img {
   width: 40px;
@@ -355,4 +387,444 @@ table {
   color: #a5a5a5;
   text-transform: capitalize;
   text-align: center;
+}
+
+.left_upper {
+  height: 50%;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 15px;
+}
+.left_upper .upper_banner {
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-grid-banner-1.jpg.webp);
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  padding: 80px 0 0 30px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left_upper .upper_banner:hover {
+  transform: scale(1.03);
+}
+.left_upper .upper_banner h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.left_upper h1 {
+  line-height: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+.left_bottom {
+  height: 50%;
+  font-family: "Poppins", sans-serif;
+}
+.left_bottom .bottom_banner {
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-grid-banner-2.jpg.webp);
+  width: 100%;
+  height: 100%;
+  text-align: start;
+  padding: 80px 0 0 30px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.left_bottom .bottom_banner:hover {
+  transform: scale(1.03);
+}
+.left_bottom .bottom_banner h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.left_bottom .bottom_banner h1 {
+  line-height: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+.right_upper {
+  height: 60%;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+.right_upper .upper_banner {
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/04/retail-grid-slider-1-1.jpg);
+  width: 100%;
+  height: 500px;
+  background-repeat: no-repeat;
+  text-align: start;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  padding: 80px 0 0 30px;
+}
+.right_upper .upper_banner:hover {
+  transform: scale(1.03);
+}
+.right_upper .upper_banner h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.right_upper .upper_banner h1 {
+  line-height: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+.right_bottom {
+  height: 45%;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+.right_bottom .bottom_banner {
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-grid-banner-3-opt.jpg.webp);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  text-align: start;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  padding: 80px 0 0 30px;
+}
+.right_bottom .bottom_banner:hover {
+  transform: scale(1.03);
+}
+.right_bottom .bottom_banner h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.right_bottom .bottom_banner h1 {
+  line-height: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+.upperpromo_banner {
+  margin-top: 80px;
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-banner-4-opt-315x400.jpg);
+  width: 315px;
+  height: 400px;
+  font-family: "Poppins", sans-serif;
+  text-align: start;
+  padding: 30px 0 0 30px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.upperpromo_banner:hover {
+  transform: scale(1.03);
+}
+.upperpromo_banner h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.upperpromo_banner h1 {
+  line-height: 36px;
+  font-size: 26px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+.bottompromo_banner {
+  margin-top: 20px;
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-banner-5-opt-315x400.jpg);
+  width: 315px;
+  height: 400px;
+  font-family: "Poppins", sans-serif;
+  text-align: start;
+  padding: 30px 0 0 30px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bottompromo_banner:hover {
+  transform: scale(1.03);
+}
+.bottompromo_banner h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.bottompromo_banner h1 {
+  line-height: 36px;
+  font-size: 26px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+.products_tabs {
+  font-family: "Poppins", sans-serif;
+  margin-top: 75px;
+}
+.products_tabs .header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+}
+.products_tabs .header .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  border-bottom: 1px solid #558063;
+  margin-right: 20px;
+}
+.products_tabs .header .title h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.products_tabs .header .tabs {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.products_tabs .header .tabs ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.products_tabs .header .tabs ul li {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333333;
+  cursor: pointer;
+}
+.products_tabs .header .tabs ul li:hover {
+  color: #558063;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.product__head {
+  position: relative;
+}
+.product__head .new {
+  position: absolute;
+  background-color: #558063;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 18px 8px;
+  font-size: 14px;
+}
+.product__head .product__head__img {
+  overflow: hidden;
+}
+.product__head .product__head__img img {
+  width: 231px;
+  height: 292px;
+}
+.product__head .product__head__img__body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 1px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  position: absolute;
+  bottom: 4px;
+  left: -1px;
+  right: 0;
+  opacity: 0;
+}
+.product__head .product__head__img__body:hover {
+  opacity: 1;
+}
+.product__head .product__head__img__body ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  color: #767676;
+  font-size: 24px;
+}
+.product__head .product__head__img__body ul li:hover {
+  color: #a5a5a5;
+}
+.product .product__head__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: center;
+}
+.product .product__head__text h6 {
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #242424;
+  font-weight: 600;
+}
+.product .product__head__text p {
+  font-size: 13px;
+  text-transform: capitalize;
+  color: #a5a5a5;
+}
+.product .product__head__text span {
+  font-size: 14px;
+  color: #558063;
+  font-weight: 600;
+}
+.product .product__head__text .sale {
+  font-size: 12px;
+}
+
+.product_banner {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+}
+.product_banner .banner {
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-banner-6-opt.jpg.webp);
+  width: 457px;
+  height: 420px;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: start;
+  padding: 106px 0 0 30px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.product_banner .banner:hover {
+  transform: scale(1.03);
+}
+.product_banner .banner h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.product_banner .banner h1 {
+  line-height: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 500;
+}
+.wide_banner {
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+}
+.wide_banner .banner {
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-banner-bicycle-bg-opt.jpg?id=27500) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  margin-right: 0px !important;
+  margin-bottom: 120px !important;
+  margin-left: 0px !important;
+  padding-top: 40px !important;
+  padding-right: 5% !important;
+  padding-left: 5% !important;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+.wide_banner .banner .content_text {
+  padding-left: 20px;
+}
+.wide_banner .banner .content_text h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.wide_banner .banner .content_text h1 {
+  line-height: 64px;
+  font-size: 54px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 600;
+}
+.wide_banner .banner .content_text p {
+  line-height: 26px;
+  font-size: 16px;
+  color: #a5a5a5;
+}
+.wide_banner .banner .content_text .buy {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.wide_banner .banner .content_text .buy .green {
+  font-size: 15px;
+  line-height: 29px;
+}
+.wide_banner .banner .content_text .buy span {
+  font-size: 48px;
+  color: #fff;
+}
+.wide_banner .banner .bicycle {
+  padding-top: 80px;
 }/*# sourceMappingURL=style.css.map */

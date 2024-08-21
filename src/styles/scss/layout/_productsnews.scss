@@ -1,0 +1,193 @@
+.left_upper {
+    height: 50%;
+    font-family: $font_family;
+    margin-bottom: 15px;
+
+    .upper_banner {
+        background-image: url(	https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-grid-banner-1.jpg.webp);
+        width: 100%;
+        height: 100%;
+        text-align: start;
+        padding: 80px 0 0 30px;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+
+        h4 {
+            line-height: 23px;
+            font-size: 13px;
+            color: $grey_color;
+            text-transform: uppercase;
+    }
+        }
+
+        h1 {
+            line-height: 40px;
+            font-size: 30px;
+            text-transform: capitalize;
+            color: $white_color;
+            font-weight: 500;
+        }
+
+        .transparent {
+            @extend %Transparent_button;
+            
+            &:hover {
+              @extend %Hoverbutton_transparent;
+            }
+        }
+    }
+
+.left_bottom {
+    height: 50%;
+    font-family: $font_family;
+
+    .bottom_banner {
+        background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-grid-banner-2.jpg.webp);
+        width: 100%;
+        height: 100%;
+        text-align: start;
+        padding: 80px 0 0 30px;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        &:hover {
+            transform: scale(1.03);
+        }
+
+        h4 {
+            line-height: 23px;
+            font-size: 13px;
+            color: $grey_color;
+            text-transform: uppercase;
+         }
+
+         h1 {
+        line-height: 40px;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: $white_color;
+        font-weight: 500;
+        }
+
+        a {
+            @extend %Green_button;
+
+        &:hover {
+           @extend %Hoverbutton_green;
+        }
+        }
+    }
+}
+
+.right_upper {
+    height: 60%;
+    font-family: $font_family;
+    
+    overflow: hidden;
+   
+
+    .upper_banner {
+        background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/04/retail-grid-slider-1-1.jpg);
+        width: 100%;
+        height: 500px;
+        background-repeat: no-repeat ;
+        text-align: start;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        padding: 80px 0 0 30px;
+      
+
+        &:hover {
+            transform: scale(1.03);
+        }
+
+        h4 {
+            line-height: 23px;
+            font-size: 13px;
+            color: $grey_color;
+            text-transform: uppercase;
+         }
+
+         h1 {
+            line-height: 40px;
+            font-size: 30px;
+            text-transform: capitalize;
+            color: $white_color;
+            font-weight: 500;
+        }
+
+        .green  {
+            @extend %Green_button;
+
+        &:hover {
+           @extend %Hoverbutton_green;
+        }
+        }
+
+        .transparent {
+            @extend %Transparent_button;
+            
+            &:hover {
+              @extend %Hoverbutton_transparent;
+            }
+        }
+    }
+}
+
+.right_bottom {
+    height: 45%;
+    font-family: $font_family;
+    overflow: hidden;
+
+    .bottom_banner {
+        background-image: url(	https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-grid-banner-3-opt.jpg.webp);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat ;
+        text-align: start;
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+        cursor: pointer;
+        padding: 80px 0 0 30px;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+        
+        h4 {
+            line-height: 23px;
+            font-size: 13px;
+            color: $grey_color;
+            text-transform: uppercase;
+         }
+
+         h1 {
+            line-height: 40px;
+            font-size: 30px;
+            text-transform: capitalize;
+            color: $white_color;
+            font-weight: 500;
+        }
+
+         .transparent {
+            @extend %Transparent_button;
+            
+            &:hover {
+              @extend %Hoverbutton_transparent;
+            }
+        }
+    }
+}
+
