@@ -68,7 +68,7 @@ table {
   border: 1px solid #fff;
 }
 
-.wide_banner .banner .content_text .buy .green, .product_banner .banner .green, .right_upper .upper_banner .green, .left_bottom .bottom_banner a {
+.promo_banner .green, .article_card__head__img .article_card_button .green, .wide_banner .banner .content_text .buy .green, .product_banner .banner .green, .right_upper .upper_banner .green, .left_bottom .bottom_banner a {
   padding: 8px 14px;
   font-size: 12px;
   text-decoration: none;
@@ -80,7 +80,7 @@ table {
   background-color: #558063;
 }
 
-.wide_banner .banner .content_text .buy .green:hover, .product_banner .banner .green:hover, .right_upper .upper_banner .green:hover, .left_bottom .bottom_banner a:hover {
+.promo_banner .green:hover, .wide_banner .banner .content_text .buy .green:hover, .product_banner .banner .green:hover, .right_upper .upper_banner .green:hover, .left_bottom .bottom_banner a:hover {
   background-color: #486d54;
 }
 
@@ -827,4 +827,174 @@ table {
 }
 .wide_banner .banner .bicycle {
   padding-top: 80px;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 0;
+  font-family: "Poppins", sans-serif;
+}
+.article__content {
+  text-align: center;
+}
+.article__content h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.article__content h1 {
+  line-height: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #333333;
+  font-weight: 600;
+}
+.article__content p {
+  line-height: 26px;
+  font-size: 14px;
+  color: #a5a5a5;
+}
+
+.article_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: hidden;
+  border: 1px solid rgb(230, 230, 230);
+  cursor: pointer;
+  padding: 0 20px 10px 20px;
+  transition: 0.5s ease-in-out;
+  margin-top: 20px;
+}
+.article_card:hover {
+  box-shadow: 0px 4px 16px 7px rgba(0, 0, 0, 0.2);
+  transform: scale(1.03);
+}
+.article_card__head__img {
+  width: 100%;
+  height: 227;
+  position: relative;
+}
+.article_card__head__img__body {
+  position: absolute;
+  top: 20px;
+  left: 45px;
+}
+.article_card__head__img__body .date {
+  display: inline-block;
+  background-color: #fff;
+  color: #333333;
+  font-size: 24px;
+  max-width: 60px;
+  padding: 3px 4px;
+  text-align: center;
+}
+.article_card__head__img__body .date span {
+  font-size: 12px;
+  font-weight: 500;
+}
+.article_card__head__img .article_card_button {
+  position: absolute;
+  bottom: -25px;
+  left: 85px;
+  right: 0;
+}
+.article_card__footer {
+  text-align: center;
+  line-height: 30px;
+}
+.article_card__footer h1 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 40px;
+}
+.article_card__footer p {
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.article_card__footer a {
+  text-decoration: none;
+  color: #558063;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.promo_banner {
+  background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-banner-12-opt-1.jpg.webp);
+  width: 315px;
+  height: 330px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  padding: 90px 0 10px 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo_banner:hover {
+  transform: scale(1.03);
+}
+.promo_banner h4 {
+  line-height: 23px;
+  font-size: 13px;
+  color: #a5a5a5;
+  text-transform: uppercase;
+}
+.promo_banner h1 {
+  line-height: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #333333;
+  font-weight: 500;
+}
+.items_list {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 0;
+}
+.items_list .name h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333333;
+  text-transform: uppercase;
+}
+.items_list .item_content {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+}
+.items_list .item_info {
+  line-height: 20px;
+}
+.items_list .item_info span {
+  font-size: 14px;
+  color: #767676;
+  font-weight: 600;
+  cursor: pointer;
+}
+.items_list .item_info span:hover {
+  color: #a5a5a5;
+}
+.items_list .item_info p {
+  font-size: 14px;
+  color: #558063;
+  font-weight: 600;
 }/*# sourceMappingURL=style.css.map */

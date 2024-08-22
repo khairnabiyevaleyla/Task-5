@@ -1,0 +1,73 @@
+.promo_banner {
+    background-image: url(https://woodmart.b-cdn.net/wp-content/uploads/2019/05/retail-banner-12-opt-1.jpg.webp);
+    width: 315px;
+    height: 330px;
+    font-family: $font_family;
+    text-align: center;
+    padding: 90px 0 10px 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    &:hover {
+        transform: scale(1.03);
+    }
+
+    h4 {
+        line-height: 23px;
+        font-size: 13px;
+        color: $grey_color;
+        text-transform: uppercase;
+    }
+    h1 {
+        line-height: 40px;
+        font-size: 30px;
+        text-transform: capitalize;
+        color: $black_color;
+        font-weight: 500;
+    }
+    .green {
+        @extend %Green_button;
+        &:hover {
+            @extend %Hoverbutton_green;
+        }
+    }
+}
+
+.items_list {
+    @include Flexible (start,start,column,nowrap,10px);
+    font-family: $font_family;
+    padding: 10px 0;
+    .name {
+        h4 {
+        font-size: 16px;
+        font-weight: 600;
+        color: $black_color;
+        text-transform: uppercase
+        }
+    }
+    .item_content {
+        @include Flexible (start,start,row,nowrap,10px);
+    }
+    .item_info {
+        line-height: 20px;
+     
+        span {
+            font-size: 14px;
+            color: $stronggrey_color;
+            font-weight: 600;
+            cursor: pointer;
+            &:hover {
+                color: $grey_color;
+                }
+        }
+        p {
+            font-size: 14px;
+            color: $green_color;
+            font-weight: 600;
+        }
+    }
+    
+}
