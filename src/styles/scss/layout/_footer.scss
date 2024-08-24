@@ -1,0 +1,159 @@
+.stores {
+    margin: 30px 0 30px 30px;
+    .locations{
+         li {
+            line-height: 30px;
+            font-size: 14px;
+            color: $grey_color;
+            cursor: pointer;
+            &:hover {
+                color: $green_color;
+            }
+            span {
+                font-size: 14px;
+                font-weight: 600;
+                color: $black_color;
+                &:hover {
+                    color: $green_color;
+            }
+        }
+     }
+
+ } 
+ 
+}
+
+.company {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: $font_family;
+
+    .info {
+        .company_logo {
+            img {
+                width: 220px;
+                height: 32px;
+                padding-left: 20px;
+            }
+        }
+        .content {
+            p {
+                font-size: 14px;
+                color: $grey_color;
+                line-height: 30px;
+                padding-left: 20px;
+            }
+        }
+        .contact li, i {
+            font-size: 14px;
+            color: $grey_color;
+            line-height: 30px;
+            padding: 0 10px;
+        }
+        .socialmedia  {
+          @include Flexible (start,center,row,nowrap,5px);
+           .icons {
+            padding: 10px 0;
+               margin-left: 20px;
+            ul {@include Flexible (center,center,row,nowrap,8px);
+                flex-direction: row;
+                li {
+                    display: inline;
+                     background-color: $black_color;
+                     border-radius: 50%;
+                    i { width: 30px;
+                        height: 30px;
+                        font-size: 14px;
+                        color: $white_color;
+                        cursor: pointer;
+                    }
+                }
+            }
+           }
+        }
+    }
+    
+}
+
+.subscribe {
+    font-family: $font_family;
+    @include Flexible (start, center, row, nowrap, 20px);
+    padding: 20px 30px;
+    margin-left: 25px;
+    .text {
+        line-height: 30px;
+        h4 {
+            font-size: 18px;
+            font-weight: 600;
+            color: $black_color;
+        }
+        p {
+            font-size: 14px;
+            color: $grey_color;
+        }
+    }
+}
+
+.form {
+    @include Flexible (end, center, row, nowrap, 20px);
+    margin-top: 20px;
+    font-family: $font_family;
+    .signup {
+       padding-right: 45px;
+        @include Flexible (end, center, row, nowrap, 20px);
+        .email {
+            input {
+                padding: 10px 30px;
+                max-width: 100%;
+                width: 300px;
+                border: 1px solid $borderbottom_color;
+                background-color: transparent;
+                font-size: 14px;
+                outline: none;
+            }
+        }
+        .sign_btn {
+            a {
+                @extend %Green_button;
+                padding: 13px 40px;
+
+                &:hover {
+                    @extend %Hoverbutton_green;
+                }
+            }
+        }
+    }
+}
+
+.left_footer {
+    font-family: $font_family;
+    @include Flexible (start,center,row,nowrap,10px);
+    padding: 50px;
+    h5{
+        font-size: 11.2px;
+        font-weight: 600;
+        color: $black_color;
+    }
+    .created {
+        font-size: 11.2px;
+        color: $grey_color;
+    }
+    h4 {
+        font-size: 11.2px;
+        font-weight: 600;
+        color: $black_color;
+    }
+
+    p {
+        font-size: 11.2px;
+        color: $grey_color;
+    }
+}
+
+.right_footer {
+    font-family: $font_family;
+    @include Flexible (end,center,row,nowrap,10px);
+    padding: 50px;
+    margin-left: 50px;
+
+}
